@@ -28,8 +28,5 @@
   "bugs": {
     "url": "https://github.com/360-ahemenjeho/chosa/issues"
   },
-  "homepage": "https://github.com/360-ahemenjeho/chosa#readme",
-  "dependencies": {
-    "chosa": "^1.0.0"
-  }
+  "homepage": "https://github.com/360-ahemenjeho/chosa#readme"
 }
