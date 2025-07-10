@@ -1,15 +1,30 @@
 .menu > .dropdown {
-  display: none;
+    display: none;
 }
 
 .menu.active > .dropdown {
-  display: block;
+    display: block;
+    animation: slideIn 0.3s ease-in-out;
 }
 
 .menu > .trigger {
-  cursor: pointer;
+    cursor: pointer;
 }
 
 .menu.active > .trigger {
-  color: red;
+    color: red;
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateY(-100%);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+
+header {
+    height: 200px;
+    background-color: yellow;
 }
