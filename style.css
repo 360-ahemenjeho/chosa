@@ -1,0 +1,15 @@
+.menu > .dropdown {
+  display: none;
+}
+
+.menu.active > .dropdown {
+  display: block;
+}
+
+.menu > .trigger {
+  cursor: pointer;
+}
+
+.menu.active > .trigger {
+  color: red;
+}
