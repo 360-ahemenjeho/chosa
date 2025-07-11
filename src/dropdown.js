@@ -1,4 +1,4 @@
-export default function init() {
+export default function initMenu() {
   document.querySelectorAll(".menu").forEach((menu) => {
     const triggerEl = menu.querySelector(".trigger");
     triggerEl.addEventListener("click", () => {

@@ -1,15 +1,22 @@
 {
   "name": "chosa",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "everything ui",
+  "type": "module",
   "main": "index.js",
-  "module": "src/dropdown.js",
-  "style": "src/dropdown.css",
+  "module": "index.js",
+  "exports": {
+    ".": {
+      "import": "./index.js"
+    }
+  },
   "files": [
     "src/",
     "dist/",
     "index.js",
-    "README.md"
+    "types/",
+    "README.md",
+    "CHANGELOG.md"
   ],
   "scripts": {
     "build": "node build.js",
@@ -21,12 +28,20 @@
   },
   "keywords": [
     "ui",
-    "components"
+    "components",
+    "dropdown",
+    "menu",
+    "javascript",
+    "es6",
+    "modules"
   ],
   "author": "ahemenjeho",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/360-ahemenjeho/chosa/issues"
   },
-  "homepage": "https://github.com/360-ahemenjeho/chosa#readme"
+  "homepage": "https://github.com/360-ahemenjeho/chosa#readme",
+  "engines": {
+    "node": ">=14.0.0"
+  }
 }
